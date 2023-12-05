@@ -7,9 +7,9 @@
   <script src="main.js" type="module"></script>
 </head>
 
-<body class="flex overflow-hidden h-screen bg-cover bg-[url('/assets/noel.jpg')]">
-  <main class="flex justify-between h-full mx-20 bg-red-500">
-    <section class="w-1/2 my-4 ml-4 bg-cover bg-[url('/assets/fondg.svg')]">
+<body class="flex h-screen bg-cover bg-[url('/assets/noel.jpg')]">
+  <main class="flex h-full mx-20">
+    <section class=" w-1/2 my-4 bg-cover bg-[url('/assets/fondg.svg')] border-8 border-red-500">
       <div>
         <img class="mx-auto max-h-10" src="assets/logo_de_la_librairie.png" alt="">
         <div class="m-5 border-2 border-gray-300 bg-slate-400/10 backdrop-blur-sm">
@@ -17,32 +17,58 @@
           <p class="font-medium text-center">Notre librairie “Ô fil des pages” viens de faire son ouverture alors venez
             nombreux !</p>
         </div>
-        <h3 class="p-2 mx-auto my-5 text-3xl text-center border-2 rounded-full bg-slate-400/10 backdrop-blur-sm fongrt-bold w-fit">Nos coups de coeurs pour Noël</h3>
+        <h3
+          class="p-2 mx-auto my-5 text-3xl text-center border-2 rounded-full bg-slate-400/10 backdrop-blur-sm fongrt-bold w-fit">
+          Nos coups de coeurs pour Noël</h3>
         <article class="flex p-2 m-5 border-2 border-gray-300 bg-slate-400/10 backdrop-blur-sm">
           <img class="px-8 my-auto max-h-32" src="https://i.imgur.com/S4Svg5L.png" alt="">
           <div>
             <div>
               <h4 class="text-3xl font-bold text-center">"L'Énigme de la clé du Père Noël"</h4>
               <q class="mx-auto text-sm ">Auteur : Michel Bussi</q>
-              <p class="text-justify">Roman captivant où une jeune enquêtrice doit résoudre un mystère lié à une clé du Père Noël, entraînant
+              <p class="text-justify">Roman captivant où une jeune enquêtrice doit résoudre un mystère lié à une clé du
+                Père Noël, entraînant
                 les lecteurs dans une aventure pleine de suspense et de magie.</p>
             </div>
           </div>
         </article>
       </div>
     </section>
-    <section class="w-1/2 mr-4 my-4 bg-cover bg-[url('/assets/fondd.svg')]">
-      B
-    </section>
+    <section class="w-1/2 my-4 bg-cover bg-[url('/assets/fondd.svg')] border-8 border-red-500">
+      <img class="inset-y-0 right-0 max-h-10" src="assets/logo_de_la_librairie.png" alt="">
 
+      <article class="flex p-2 m-5 border-2 border-gray-300 bg-slate-400/10 backdrop-blur-sm">
+        <img class="mt-0 max-h-96" src="assets/devanture.svg" alt="">
+        <div>
+          <img src="/assets/interieur.svg" class="mx-auto p-5" alt="">
+          <h4 class="text-3xl font-bold text-center">Ô fil des pages</h4>
+          <p class="text-justify m-5">Plongez dans un univers envoûtant où les histoires prennent vie, de la petite
+            enfance à l'âge adulte</p>
+        </div>
+      </article>
+      <p class="px-5 text-justify">Notre librairie, nichée au cœur de la Presqu'île de Lyon, est bien plus qu'une simple
+        boutique de livres. C'est un lieu magique où les rêves des tout-petits prennent forme, où les adolescents
+        trouvent des mondes parallèles, et où les jeunes adultes explorent des horizons infinis.
+      </p>
+      <div style="width: 75%" class="mx-auto mt-2"><iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0"
+          marginwidth="0"
+          src="https://maps.google.com/maps?width=100%25&amp;height=200&amp;hl=en&amp;q=1%20Pl.%20de%20l'H%C3%B4pital,%2069002%20Lyon+(Grand%20H%C3%B4tel-Dieu)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+            href="https://www.maps.ie/population/">Population Estimator map</a></iframe></div>
+    </section>
+    <div class="flex flex-col gap-24 mt-16">
+      <a class="p-2 text-center text-white transform rotate-90 bg-teal-400 rounded-t-lg whitespace-nowrap"
+        href="#">Accueil</a>
+      <a class="p-2 text-center text-white transform rotate-90 bg-teal-800 rounded-t-lg whitespace-nowrap"
+        href="#">Actualités</a>
+      <a class="p-2 text-center text-white transform rotate-90 bg-teal-800 rounded-t-lg whitespace-nowrap"
+        href="#">Bibliothèque</a>
+      <a class="p-2 text-center text-white transform rotate-90 bg-teal-800 rounded-t-lg whitespace-nowrap"
+        href="#">Coups de coeurs</a>
+      <a class="p-2 text-center text-white transform rotate-90 bg-teal-800 rounded-t-lg whitespace-nowrap"
+        href="#">Contacts</a>
+    </div>
   </main>
-  <aside class="flex gap-20 transform rotate-90 h-fit">
-    <a href="#">Accueil</a>
-    <a href="#">Actualités</a>
-    <a href="#">Bibliothèque</a>
-    <a href="#">Coups de coeurs</a>
-    <a href="#">Contacts</a>
-  </aside>
+
 </body>
 
 </html>
