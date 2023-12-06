@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.filter-btn.active {
+    color: white;
+    background: rgba(101, 186, 186, 0.50);
+    font-weight: 700;
+  }
