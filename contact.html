@@ -23,7 +23,7 @@
                     <p class="text-center mb-2 ml-20 mr-20">
                         Si vous avez des questions, des commentaires ou des suggestions, n'hésitez pas à nous contacter.
                     </p>
-                    <div class="border-2 border-gray-300 bg-slate-400/10 backdrop-blur-sm rounded-xl w-[93%]">
+                    <div class="border-2 border-gray-300 bg-slate-400/10 backdrop-blur-sm rounded-xl w-[93%] flex  justify-center">
                         <form action="/send_mail" method="post" class="m-auto space-y-4">
                             <div class="flex flex-row space-x-6 m-6">
                                 <label for="fistname" class="flex flex-col"> Prénom <input type='text' placeholder='Nom'
@@ -47,11 +47,11 @@
                             </div>
                             <div class="flex justify-center m-6">
                                 <button type='submit' value="send" id="message"
-                                    class="text-white bg-[#65baba] hover:bg-blue-600 font-semibold  text-sm px-4 py-2.5 ">Envoyer</button>
+                                    class="text-white mb- rounded-full bg-[#65baba] hover:bg-blue-600 font-semibold  text-sm px-4 py-2.5 ">Envoyer</button>
                             </div>
                         </form>
                     </div>
-                    <a href="#" class="font-bold text-center text-xl mt-32"> Crédits</a>
+                    <a href="#" class="font-semibold text-center text-xl mt-40"> Crédits</a>
                 </div>
                 <div class="flex flex-col my-4 ml-1 w-[50%] bg-[url('/assets/fondg.svg')] bg-cover ">
                     <div>
@@ -63,7 +63,7 @@
                         Restez à l'affût de votre librairie jeunesse : Abonnez-vous
                     </p>
                     <div
-                        class="mt-4 flex justify-center border-2 border-gray-300 bg-slate-400/10 backdrop-blur-sm w-[90%] ml-6 rounded-xl">
+                        class="mt-4 p-2 flex justify-center border-2 border-gray-300 bg-slate-400/10 backdrop-blur-sm w-[90%] ml-6 rounded-xl">
                         <form action="/send_mail" method="post">
                             <label for="nomcomplet" class="flex flex-col ml-20">Nom complet<input type='text'
                                     placeholder='Nom' id="from"
@@ -71,30 +71,30 @@
                             <label for="email" class="flex flex-col mt-6 ml-20">E-mail<input type='email'
                                     placeholder='Email' id="to"
                                     class="w-96 py-2.5 px-4 border text-sm outline-[#007bff] bg-[#65baba] opacity-50 rounded-2xl h-12" /></label>
-                            <p class=" text-center m-10 mt-6 ml-20">
+                            <p class=" text-center m-10 mt-6 ml-16">
                                 En vous abonnant, vous acceptez notre politique de confidentialité.
                             </p>
                             <div class="flex justify-center">
                                 <button type='submit' value="send" id="message"
-                                    class="text-white bg-[#65baba] hover:bg-blue-600 font-semibold text-sm px-4 py-2.5">
+                                    class="text-white rounded-full mb-6 bg-[#65baba] hover:bg-blue-600 font-semibold text-sm px-4 py-2.5">
                                     M'abonner</button>
                             </div>
                         </form>
                     </div>
-                    <a href="#" class="font-bold text-center text-xl mt-52"> Mention légale</a>
+                    <a href="#" class="font-semibold text-center text-xl mt-52"> Mention légale</a>
                 </div>
                 <div class="w-8">
-                    <aside class="flex space-x-1 transform rotate-90 h-fit">
-                        <a href="#"
+                    <aside class="mt-3 flex space-x-1 transform rotate-90 h-fit">
+                        <a href="/index.html"
                             class=" px-8  whitespace-nowrap bg-[#3A6463] text-white text-xs font-bold rounded-t-2xl h-fit py-3">Accueil</a>
-                        <a href="#"
+                        <a href="/actualite.html"
                             class=" px-8  whitespace-nowrap bg-[#3A6463] text-white text-xs font-bold rounded-t-2xl h-fit py-3">Actualités</a>
-                        <a href="#"
+                        <a href="library.html"
                             class=" px-8  whitespace-nowrap bg-[#3A6463] text-white text-xs font-bold rounded-t-2xl h-fit py-3">Bibliothèque</a>
-                        <a href="#"
+                        <a href="coupdecoeur.html"
                             class=" px-10 whitespace-nowrap bg-[#3A6463] text-white text-xs font-bold rounded-t-2xl h-fit py-3 w-fit text-left">Coups
                             de coeurs</a>
-                        <a href="#"
+                        <a href="/contact.html"
                             class=" px-8  whitespace-nowrap bg-[#65BABA] text-white text-xs font-bold rounded-t-2xl h-fit py-3">Contacts</a>
                     </aside>
                 </div>

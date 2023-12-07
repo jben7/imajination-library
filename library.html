@@ -13,10 +13,11 @@
         <button class="px-3 py-2 backdrop-blur-xl drop-shadow-md border-1 text-lg border-gray-800 text-black rounded-full transition-all bg-transparent border-none filter-btn" data-filter-value="jeunesse">Littérature jeunesse</button>
         <button class="px-3 py-2 backdrop-blur-xl drop-shadow-md border-1 text-lg border-gray-800 text-black rounded-full transition-all bg-transparent border-none filter-btn" data-filter-value="contes">Contes de fées</button>
         <button class="px-3 py-2 backdrop-blur-xl drop-shadow-md border-1 text-lg border-gray-800 text-black rounded-full transition-all bg-transparent border-none filter-btn" data-filter-value="livredimage">Livres d'images</button>
-      </div>
+        <button class="px-3 py-2 backdrop-blur-xl drop-shadow-md border-1 text-lg border-gray-800 text-black rounded-full transition-all bg-transparent border-none filter-btn" data-filter-value="educatifs">Educatifs</button>
+    </div>
     <main class="flex h-full mx-20">
         <section class=" w-1/2 my-4 bg-cover bg-[url('/assets/fondg.svg')] border-8 border-red-500">
-        <div class="relative grid grid-cols-2 gap-5 mt-20 book-gallery">
+        <div class="relative grid grid-cols-2 justify-between gap-5 mt-20 book-gallery">
             <!-- <a href="#" class="relative project-card h-52 [&>span]:hover:opacity-100 [&>img]:hover:opacity-60">
               <img src="img/project-1.png" class="object-cover w-full h-full transition-all project-image">
               <span class="absolute w-4/5 text-white transition-all opacity-0 tags bottom-5 left-5">#javascript, #fullstack</span>
@@ -27,27 +28,37 @@
           </div>
         </section>
         <section class="w-1/2 my-4 bg-cover bg-[url('/assets/fondd.svg')] border-8 border-red-500">
-            <div class="relative grid grid-cols-6 gap-5 mt-20 book-gallery2">
+            <div class=" ml-5 my-2">
+                <img class="mx-auto max-h-16" src="assets/logo_de_la_librairie.png" alt="">
+              </div>
+            <div class="relative grid grid-cols-2 gap-5 book-gallery2">
                 <!-- <a href="#" class="relative project-card h-52 [&>span]:hover:opacity-100 [&>img]:hover:opacity-60">
                   <img src="img/project-1.png" class="object-cover w-full h-full transition-all project-image">
                   <span class="absolute w-4/5 text-white transition-all opacity-0 tags bottom-5 left-5">#javascript, #fullstack</span>
                 </a> -->
       
                 <!-- Traité en JS -->
-      
-              </div>
-        </section>
-        <div class="flex flex-col gap-24 mt-16">
-            <a class="p-2 text-center text-white transform rotate-90 bg-teal-400 rounded-t-lg whitespace-nowrap"
-                href="#">Accueil</a>
-            <a class="p-2 text-center text-white transform rotate-90 bg-teal-800 rounded-t-lg whitespace-nowrap"
-                href="#">Actualités</a>
-            <a class="p-2 text-center text-white transform rotate-90 bg-teal-800 rounded-t-lg whitespace-nowrap"
-                href="#">Bibliothèque</a>
-            <a class="p-2 text-center text-white transform rotate-90 bg-teal-800 rounded-t-lg whitespace-nowrap"
-                href="#">Coups de coeurs</a>
-            <a class="p-2 text-center text-white transform rotate-90 bg-teal-800 rounded-t-lg whitespace-nowrap"
-                href="#">Contacts</a>
+            
+            </div>
+            <div class=" absolute w-full text-center text-xl">
+                <a href="#" class="font-bold "> Mention légale</a>
+            </div>
+            </section>
+        
+        <div class="w-8">
+            <aside class="mt-4 flex space-x-1 transform rotate-90 h-fit">
+                <a href="/index.html"
+                    class=" px-8  whitespace-nowrap bg-[#3A6463] text-white text-xs font-bold rounded-t-2xl h-fit py-3">Accueil</a>
+                <a href="/actualite.html"
+                    class=" px-8  whitespace-nowrap bg-[#3A6463] text-white text-xs font-bold rounded-t-2xl h-fit py-3">Actualités</a>
+                <a href="library.html"
+                    class=" px-8  whitespace-nowrap bg-[#65BABA] text-white text-xs font-bold rounded-t-2xl h-fit py-3">Bibliothèque</a>
+                <a href="coupdecoeur.html"
+                    class=" px-10 whitespace-nowrap bg-[#3A6463] text-white text-xs font-bold rounded-t-2xl h-fit py-3 w-fit text-left">Coups
+                    de coeurs</a>
+                <a href="/contact.html"
+                    class=" px-8  whitespace-nowrap bg-[#3A6463] text-white text-xs font-bold rounded-t-2xl h-fit py-3">Contacts</a>
+            </aside>
         </div>
     </main>
 

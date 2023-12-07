@@ -12,9 +12,18 @@ filters.map((btn, i) => {
 
         let tag = btn.getAttribute('data-filter-value');
 
-        bookCards.map(book => {
+        bookCards.map((book, i) => {
+            book.classList.remove('pasvisible')
             if (tag == 'all') {
-                book.style.display = null;
+                if (i >= 4 && i <= 15) {
+                    book.style.display = 'none';
+
+                }
+                if (i >= 20 && i <= 32) {
+                book.style.display = 'none';
+
+                }
+
             } else if (!book.getAttribute('data-tags').includes(tag)) {
                 book.style.display = 'none';
             } else {

@@ -11,8 +11,10 @@
 <body class="flex h-screen bg-cover bg-[url('/assets/noel.jpg')] overflow-hidden">
   <main class="flex h-full mx-20">
     <section class=" w-1/2 my-4 bg-cover bg-[url('/assets/fondg.svg')] border-8 border-red-500">
-      <div>
-        <img class="mx-auto max-h-10" src="assets/logo_de_la_librairie.png" alt="">
+      <div class="text-center">
+        <div class=" ml-5 font-bold text-6xl  mb-8  mt-4 ">
+          <h1>Ô fil des pages</h1>
+        </div>
         <div class="m-5 border-2 border-gray-300 bg-slate-400/10 backdrop-blur-sm">
           <img src="https://i.imgur.com/madY44s.png" alt="">
           <p class="font-medium text-center">Notre librairie “Ô fil des pages” viens de faire son ouverture alors venez
@@ -33,13 +35,17 @@
             </div>
           </div>
         </article>
+        <div class="w-full mt-16 text-center text-xl">
+          <a href="#" class="font-semibold "> Crédits</a>
+        </div>
       </div>
     </section>
     <section class="w-1/2 my-4 bg-cover bg-[url('/assets/fondd.svg')] border-8 border-red-500">
-      <img class="inset-y-0 right-0 max-h-10" src="assets/logo_de_la_librairie.png" alt="">
-
+      <div class=" flex justify-center ml-5 my-2 mb-5 ">
+        <img class="max-h-20" src="assets/logo_de_la_librairie.png" alt="">
+      </div>
       <article class="flex p-2 m-5 border-2 border-gray-300 bg-slate-400/10 backdrop-blur-sm">
-        <img class="mt-0 max-h-96" src="assets/devanture.svg" alt="">
+        <img class="mt-0 max-h-70" src="assets/devanture.svg" alt="">
         <div>
           <img src="/assets/interieur.svg" class="mx-auto p-5" alt="">
           <h4 class="text-3xl font-bold text-center">Ô fil des pages</h4>
@@ -55,19 +61,25 @@
           marginheight="0" marginwidth="0"
           src="https://maps.google.com/maps?width=100%25&amp;height=200&amp;hl=en&amp;q=1%20Pl.%20de%20l'H%C3%B4pital,%2069002%20Lyon+(Grand%20H%C3%B4tel-Dieu)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
             href="https://www.maps.ie/population/">Population Estimator map</a></iframe></div>
+      <div class="w-full text-center mt-3 text-xl">
+         <a href="#" class="font-semibold "> Mention légale</a>
+       </div>
     </section>
-    <div class="flex flex-col gap-24 mt-16">
-      <a class="p-2 text-center text-white transform rotate-90 bg-teal-400 rounded-t-lg whitespace-nowrap"
-        href="#">Accueil</a>
-      <a class="p-2 text-center text-white transform rotate-90 bg-teal-800 rounded-t-lg whitespace-nowrap"
-        href="#">Actualités</a>
-      <a class="p-2 text-center text-white transform rotate-90 bg-teal-800 rounded-t-lg whitespace-nowrap"
-        href="#">Bibliothèque</a>
-      <a class="p-2 text-center text-white transform rotate-90 bg-teal-800 rounded-t-lg whitespace-nowrap"
-        href="#">Coups de coeurs</a>
-      <a class="p-2 text-center text-white transform rotate-90 bg-teal-800 rounded-t-lg whitespace-nowrap"
-        href="#">Contacts</a>
-    </div>
+    <div class="w-8">
+      <aside class="mt-4 flex space-x-1 transform rotate-90 h-fit">
+          <a href="/index.html"
+              class=" px-8  whitespace-nowrap bg-[#65BABA] text-white text-xs font-bold rounded-t-2xl h-fit py-3">Accueil</a>
+          <a href="/actualite.html"
+              class=" px-8  whitespace-nowrap bg-[#3A6463] text-white text-xs font-bold rounded-t-2xl h-fit py-3">Actualités</a>
+          <a href="library.html"
+              class=" px-8  whitespace-nowrap bg-[#3A6463] text-white text-xs font-bold rounded-t-2xl h-fit py-3">Bibliothèque</a>
+          <a href="coupdecoeur.html"
+              class=" px-10 whitespace-nowrap bg-[#3A6463] text-white text-xs font-bold rounded-t-2xl h-fit py-3 w-fit text-left">Coups
+              de coeurs</a>
+          <a href="/contact.html"
+              class=" px-8  whitespace-nowrap bg-[#3A6463] text-white text-xs font-bold rounded-t-2xl h-fit py-3">Contacts</a>
+      </aside>
+  </div>
   </main>
 
 </body>
